@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(MyPlottingPackage)
+library(PlottingTools)
 library(datateachr)
 test_check("PlottingTools")

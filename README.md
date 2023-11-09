@@ -19,7 +19,7 @@ You can install the development version of PlottingTools like so:
 
 # install.packages("devtools")
 devtools::install_github("https://github.com/stat545ubc-2023/assignment-b2-shycw1.git")
-#> Skipping install of 'PlottingTools' from a github remote, the SHA1 (8cd03951) has not changed since last install.
+#> Skipping install of 'PlottingTools' from a github remote, the SHA1 (727662f5) has not changed since last install.
 #>   Use `force = TRUE` to force installation
 ```
 
