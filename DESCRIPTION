@@ -1,0 +1,17 @@
+Package: PlottingTools
+Title: Histogram Plotting Tool
+Version: 0.1.0
+Authors@R: 
+    person("Chunyu", "Wang", email = "shycw1@student.ubc.ca", role = c("aut", "cre"))
+Description: Provides functions to generate histograms from numeric attributes within dataframes with customizable bin sizes. Designed for ease of use with a concise syntax.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    ggplot2
+Suggests: 
+    datateachr,
+    dplyr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
