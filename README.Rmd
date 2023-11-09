@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# PlottingTools
+# PlottingTools (Chunyu Wang)
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -71,4 +71,20 @@ histogram_area_mean <- plot_histogram(datateachr::cancer_sample, area_mean, 30)
 print(histogram_area_mean)
 
 ```
+
+
+# Check if passing devtools::test()
+```{r}
+
+devtools::test()
+# the test block is self-contained and there's no need to remove object with rm()
+```
+
+# Check if passing check
+```{r}
+
+devtools::check()
+
+```
+
 
